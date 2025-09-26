@@ -1,0 +1,100 @@
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 223, 147);
+    border: 1px solid black;
+    font-size: 30px;
+    width: 1000px;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: linear-gradient(90deg, #5be073, #8ca50b);
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.vrema{
+    width: 30%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.aud{
+    width: 20%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+th {
+    background-color: rgb(65, 223, 147);
+}
+
+tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+.lab{
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.sem{
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.pre{
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.pre1{
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #9adfa5 0%, #b360e3 100%);
+    min-height: 100vh;
+}
